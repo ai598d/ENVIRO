@@ -27,6 +27,10 @@
 
 * Create working directory in your docker root
 
+* Follow instruction here to initialize ENVIRO. [INSTRUCTION](https://github.com/sosper30/eep520-wi24/blob/main/week9/Lecture9-1_README.md)
+
+* make sure [http://localhost](http://localhost ) is working and you can see the grey box.
+
 * clone this repository into the working directory <code>git clone https://github.com/ai598d/ENVIRO.git </code>
 
 # Run Project
