@@ -1,0 +1,30 @@
+{
+    "name": "Block",
+    "type": "dynamic",
+    "description": "Inanimate Block",
+    "shape": [
+        { "x": -10, "y": 10 },
+        { "x": 10, "y": 10 },
+        { "x": 10, "y": -10 },
+        { "x": -10, "y": -10 }
+    ],
+    "friction": {
+      "collision": 0.5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [
+      { 
+      "type": "range",
+      "location": { "x": 10, "y": 0 },
+      "direction": 0
+      },
+      { 
+        "type": "range",
+        "location": { "x": -10, "y": 0 },
+        "direction": 3.14
+      }
+    ],
+    "mass": 1,    
+    "controller": "lib/block.so"
+}
