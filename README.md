@@ -23,7 +23,23 @@
 
 # Installation and Setup
 
+* Installing Docker. [INSTRUCTION](https://github.com/sosper30/eep520-wi24/blob/main/week1/Lecture1_README.md) 
+
+* Create working directory in your docker root
+
+* clone this repository into the working directory <code>git clone https://github.com/ai598d/ENVIRO.git </code>
+
 # Run Project
+
+* Change path part of <code> run_enviro.bat </code> to your current directory.
+
+* run <code> run_enviro.bat </code> 
+
+* execute command <code> make </code>
+
+    * then execute <code>enviro </code>
+
+
 
 
 
